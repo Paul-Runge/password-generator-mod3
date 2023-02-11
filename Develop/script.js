@@ -1,5 +1,11 @@
-// Assignment code here
+// Variables for all password character types
+var num = "0123456789";
+var upperAlpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerAlpha = "abcdefghijklmnopqrstuvwxyz";
+var specChar = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
+// Receptacle to hold chosen character types
+var chosenChar = "";
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
