@@ -4,7 +4,7 @@ var upperAlpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowerAlpha = "abcdefghijklmnopqrstuvwxyz";
 var specChar = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
-// Receptacle to hold chosen character types later on
+// Receptacle to reference user chosen character types
 var chosenChar = "";
 
 // Get references to the #generate element
@@ -35,6 +35,19 @@ var generatePassword = function() {
     var confirmUpper = confirm("Include uppercase letter? (click OK to confirm)");
     var confirmLower = confirm("Include lowercase letters? (click OK to confirm)");
     var confirmSpec = confirm("Include special characters? (click OK to confirm)");
+  }
+  // If user selects a character type, add character type values to chosen character reference
+  if (confirmNum){
+    chosenChar += num;
+  }
+  if (confirmUpper) {
+    chosenChar += upperAlpha;
+  }
+  if (confirmLower) {
+    chosenChar += lowerAlpha;
+  }
+  if (confirmSpec) {
+    chosenChar += specChar;
   }
 }
 
