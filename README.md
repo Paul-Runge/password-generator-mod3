@@ -5,7 +5,7 @@ This is a random password generator that I built to satisfy the user story for t
 ## Appearance
 
 Random Passowrd Generator Demo:
-![password-generator-demo](assets\images\password-generator-demo.png)
+![password-generator-demo](Assets/images/password-generator-demo.png)
 
 ## Functionality
 
