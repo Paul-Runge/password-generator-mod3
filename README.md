@@ -17,3 +17,6 @@ The application works as follows:
 * Should the user fail to specify an adequate password length or choose at least one character type, the user will be notified of the error and prompted to complete the task again.
 * Once all prompts requirements have been adequately met, a random password utilizing the confirmed paramaters will appear in the text area inside the dashed border.
 * Each time the Generate Password button is clicked, the information resets and the sequence restarts.
+
+## Deployed Link
+https://paul-runge.github.io/password-generator-mod3/
